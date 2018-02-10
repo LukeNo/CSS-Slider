@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courgette', cursive;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/outdoors.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 10px;
+}
+
+#wrapper {
+    max-width: 1000px;
+    height: 100vh;
+    margin: 0 auto 0 auto;
+    color: #000;
+}
+
+header {
+    width: 100%;
+    display: block;
+    padding-top: 3%;
+}
+
+header h1 {
+    font-size: 3rem;
+    height: 10vh;
+    text-align: center;
+}
+
+div#slider {
+    width: 80%;
+    height: 70vh;;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 2%;
+}
+
+.picture {
+    width: 80%;
+    height: 70vh;
+}
+
+div#slider figure img { 
+    width: 20%; float: left; 
+}
+
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  -webkit-animation: 30s slides infinite;
+  animation: 30s slides infinite; 
+}
+
+
+@-webkit-keyframes slides {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+@keyframes slides {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+div#descriptions {
+    width: 80%;
+    height: 10vh;;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+span {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.place {
+    width: 80%;
+    height: 10vh;
+}
+
+div#descriptions figure span { 
+    width: 20%; float: left; 
+}
+
+div#descriptions figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    font-size: 0;
+    -webkit-animation: 30s description infinite;
+    animation: 30s description infinite; 
+}
+
+@-webkit-keyframes description {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+@keyframes description {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
