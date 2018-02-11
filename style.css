@@ -85,7 +85,7 @@ div#slider figure {
 100% { left: -400%; }
 }
 
-div#descriptions {
+div#captions {
     width: 80%;
     height: 10vh;;
     margin: 0 auto;
@@ -104,21 +104,21 @@ span {
     height: 10vh;
 }
 
-div#descriptions figure span { 
+div#captions figure span { 
     width: 20%; float: left; 
 }
 
-div#descriptions figure {
+div#captions figure {
     position: relative;
     width: 500%;
     margin: 0;
     left: 0;
     font-size: 0;
-    -webkit-animation: 30s description infinite;
-    animation: 30s description infinite; 
+    -webkit-animation: 30s caption infinite;
+    animation: 30s caption infinite; 
 }
 
-@-webkit-keyframes description {
+@-webkit-keyframes caption {
 0% { left: 0%; }
 20% { left: 0%; }
 25% { left: -100%; }
@@ -130,7 +130,7 @@ div#descriptions figure {
 100% { left: -400%; }
 }
 
-@keyframes description {
+@keyframes caption {
 0% { left: 0%; }
 20% { left: 0%; }
 25% { left: -100%; }
